@@ -1,6 +1,13 @@
 ﻿namespace EsercizioGit
 {
-    internal class Contact
+    public class Contact
     {
+        public string Name { get; set; }
+
+        public Contact(string name)
+        {
+            this.Name = name;
+        }
+
     }
 }
